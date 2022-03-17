@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3c4652;
+}
+
+.break {
+    clear: both;
+}
+
+.navbar-white {
+    background: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    width: 90% !important;
+    margin-top: 10px !important;
+    margin-left: 5%;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.red-text {
+    color: #C50000;
+}
+
+.dark-text {
+    color: #535461;
+}
+
+.sapaan {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content-heading {
+    font-size: 35px;
+}
+
+.content-text {
+    font-size: 25px;
+}
+
+.intro-info {
+    font-size: 35px;
+}
+
+.list {
+    list-style: none;
+}
+
+#intro {
+    margin-top: 5%;
+}
+
+#vending-machine {
+    margin: 10% 0;
+}
+
+.about-vending {
+    font-size: 25px;
+}
+
+.tutorial-img-1 {
+    display: none;
+}
+
+.tutorial-img-1,
+.tutorial-img-2>img {
+    border-radius: 2s0px;
+}
+
+.spacing {
+    height: 200px
+}
+
+.z-index-999 {
+    z-index: 999;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        background: white;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    }
+
+    .navbar-white {
+        width: 100% !important;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    #intro {
+        height: 20vh;
+        margin-top: 20vh;
+    }
+
+    .sapaan {
+        font-size: 30px;
+    }
+
+    .intro-info {
+        font-size: 20px;
+    }
+
+    .tutorial-img-1 {
+        display: block;
+    }
+
+    .tutorial-img-2 {
+        display: none;
+    }
+
+    .content-heading {
+        font-size: 20px;
+    }
+
+    .content-text {
+        font-size: 17px;
+    }
+
+    .spacing {
+        height: 100px;
+    }
+}
