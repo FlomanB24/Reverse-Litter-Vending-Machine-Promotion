@@ -80,21 +80,24 @@
     margin-top: 5%;
 }
 
+#intro>img {
+    width: 50%;
+}
+
 #vending-machine {
     margin: 10% 0;
 }
 
-.about-vending {
-    font-size: 25px;
+.vending>img {
+    width: 100%;
 }
 
 .tutorial-img-1 {
     display: none;
 }
 
-.tutorial-img-1,
-.tutorial-img-2>img {
-    border-radius: 2s0px;
+.tutorial-img-1>img {
+    border-radius: 20px;
 }
 
 .spacing {
@@ -112,6 +115,15 @@
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
     }
 
+    .navbar-nav {
+        padding-top: 10px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
     .navbar-white {
         width: 100% !important;
         margin-top: 0 !important;
@@ -119,12 +131,20 @@
     }
 
     #intro {
-        height: 20vh;
-        margin-top: 20vh;
+        margin-top: 20%;
+    }
+
+    #intro>img {
+        width: 100%;
+    }
+
+    #vending-machine {
+        margin: 30% 0 15% 0;
     }
 
     .sapaan {
-        font-size: 30px;
+        font-size: 25px;
+        margin: 0;
     }
 
     .intro-info {
@@ -133,10 +153,24 @@
 
     .tutorial-img-1 {
         display: block;
+        margin-bottom: 20px;
+    }
+
+    .tutorial-img-1>img {
+        border-radius: 10px;
     }
 
     .tutorial-img-2 {
         display: none;
+    }
+
+    .vending {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .vending>img {
+        width: 50%;
     }
 
     .content-heading {
