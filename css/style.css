@@ -104,6 +104,10 @@
     height: 200px
 }
 
+.teams {
+    align-items: center;
+}
+
 .z-index-999 {
     z-index: 999;
 }
@@ -179,6 +183,11 @@
 
     .content-text {
         font-size: 17px;
+    }
+
+    .teams {
+        margin-top: 20px;
+        align-items: start;
     }
 
     .spacing {
